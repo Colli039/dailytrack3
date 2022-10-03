@@ -1,0 +1,186 @@
+.btn-group {
+    background-color: white;
+    /* color: #474747; /* White text */ 
+    margin: 15px 15px;
+    font-weight: bolder;
+    border-radius: 50px;
+    cursor: pointer; /* Pointer/hand icon */
+    width: 150px; /* Set a width if needed */
+    text-align: center;
+    display: block; /* Make the buttons appear below each other */
+    box-shadow: 3px 3px 4px #cfcfcf;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+  }
+  
+  .cat label input {
+    position: absolute;
+    display: none;
+  }
+  
+  .anger_button{
+  border: 3px solid #ff2e46;
+  padding: 10px 24px; /* Red border */
+  }
+  
+  .anger_btns button:focus{
+  border: 3px solid #ff2e46;
+  color: white;
+  background-color: #eb233a;
+  box-shadow: inset 3px 3px 4px #780c18;
+  }
+  
+  .anticipation_btns button{
+  border: 3px solid #ff852e; /* Orange border */
+  padding: 10px 24px;
+  
+  }
+  
+  .anticipation_btns button:focus{
+  border: 3px solid #ff852e;
+  color: white;
+  background-color: #fa7a1e;
+  box-shadow: inset 3px 3px 4px #ad500e;
+  }
+  
+  .joy_btns button{
+  border: 3px solid #ffe72e; /* Yellow border */
+  padding: 10px 24px;
+  }
+  
+  .joy_btns button:focus{
+  border: 3px solid #ffe72e;
+  color: white;
+  background-color: #f0d71f;
+  box-shadow: inset 3px 3px 4px #b39f05;
+  }
+  
+  .trust_btns button{
+  border: 3px solid #50fa53; /* Light green border */
+  padding: 10px 24px;
+  }
+  
+  .trust_btns button:focus{
+  border: 3px solid #50fa53;
+  color: white;
+  background-color: #36e039;
+  box-shadow: inset 3px 3px 4px #19941b;
+  }
+  
+  .fear_btns button{
+  border: 3px solid #1dd162; /* dark green border */
+  padding: 10px 24px;
+  }
+  
+  .fear_btns button:focus{
+  border: 3px solid #1dd162;
+  color: white;
+  background-color: #0fa348;
+  box-shadow: inset 3px 3px 4px #04702e;
+  }
+  
+  .surprise_btns button {
+  border: 3px solid #51d3f0; /* blue border */
+  padding: 10px 24px;
+  }
+  
+  .surprise_btns button:focus{
+  border: 3px solid #51d3f0;
+  color: white;
+  background-color: #24b6d6;
+  box-shadow: inset 3px 3px 4px #0d758c;
+  }
+  
+  .sadness_btns button {
+  border: 3px solid #5186f0; /* bluer border */
+  padding: 10px 24px;
+  }
+  
+  .sadness_btns button:focus{
+  border: 3px solid #5186f0;
+  color: white;
+  background-color: #2968e6;
+  box-shadow: inset 3px 3px 4px #0a3894;
+  }
+  
+  .disgust_btns button {
+  border: 3px solid #b351f0; /* violet border */
+  padding: 10px 24px;
+  }
+  
+  .disgust_btns button:focus{
+  border: 3px solid #b351f0;
+  color: white;
+  background-color: #ac3df2;
+  box-shadow: inset 3px 3px 4px #5f118f;
+  }
+
+  <div class="container keywords" style="width:50%;margin-left:-60px;margin-top:35px;">
+
+            <div class="btn-group anger_button" style="display: block;">
+
+            <label>
+                <input type="checkbox" value="1"><span>Action</span>
+            </label>
+
+              <button id="annoyance" name="anger" value="1">Annoyance</button>
+              <button id="anger" name="anger" value="2">Anger</button>
+              <button id="rage" name="anger" value="3">Rage</button>
+            </div>
+
+            <div class="btn-group anticipation_btns" style="display: block;">
+            <button id="interest" name="anticipation" value="1">Interest</button>
+            <button id="anti" name="anticipation" value="2">Anticipation</button>
+            <button id="vigil" name="anticipation" value="3">Vigilance</button>
+            </div>
+
+            <div class="btn-group joy_btns" style="display: block;">
+            <button id="serenity" name="joy" value="1">Serenity</button>
+            <button id="joy" name="joy" value="2">Joy</button>
+            <button id="ecstacy" name="joy" value="3">Ecstacy</button>
+            </div>
+
+            <div class="btn-group trust_btns" style="display: block;">
+            <button id="acceptance" name="trust" value="1">Acceptance</button>
+            <button id="trust" name="trust" value="2">Trust</button>
+            <button id="admiration" name="trust" value="3">Admiration</button>
+            </div>
+
+            <div class="btn-group fear_btns" style="display: block;">
+            <button id="apprehension" name="fear" value="1">Apprehension</button>
+            <button id="fear" name="fear" value="2">Fear</button>
+            <button id="terror" name="fear" value="3">Terror</button>
+            </div>
+        </div>
+
+        <div class="keywords" style="margin-top: -30px;margin-left: 130px;">
+
+            <div class="btn-group surprise_btns" style="display: block;">
+            <button id="distraction" name="surprise" value="1">Distraction</button>
+            <button id="surprise" name="surprise" value="2">Surprise</button>
+            <button id="amazement" name="surprise" value="3">Amazement</button>
+            </div>
+
+            <div class="btn-group sadness_btns" style="display: block;">
+            <button id="pensive" name="sadness" value="1">Pensive</button>
+            <button id="sadness" name="sadness" value="2">Sad</button>
+            <button id="grief" name="sadness" value="3">Grief</button>
+            </div>
+
+            <div class="btn-group disgust_btns" style="display: block;">
+            <button id="boredom" name="disgust" value="1">Boredom</button>
+            <button id="disgust" name="disgust" value="2">Disgust</button>
+            <button id="loathing" name="disgust" value="3">Loathing</button>
+            </div>
+
+        </div>
+
+        <section class="bottom_btn_set" style="margin-top: 30px;">
+        <?php
+        include ("views/partials/steps.php");
+        ?>
+  
+        <button type="button submit" id="nextbtn" class="btn btn-light btn-circle btn-xl btnCpPersonal" style="width:60px;height:60px;"><i class="fa fa-arrow-right"></i></button>
+      
+      </section>

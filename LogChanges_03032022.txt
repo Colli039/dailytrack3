@@ -1,0 +1,3 @@
+Changes:
+- register.php development (functional)
+- encapsulated most variables in the user and pet modules as a security measure

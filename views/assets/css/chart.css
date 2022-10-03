@@ -1,0 +1,65 @@
+.chart{
+    width: 700px;
+    height: 600px;
+    float: left;
+    margin: 60px 15px 0 100px;
+}
+
+#translation{
+    background-color:#ffffff;
+    border: 4px solid #91ceff;
+    border-radius: 20px;
+    width: 35%;
+    height: 50%;
+    float: right;
+    margin: 100px 100px 0 -10px;
+    color: #6b6b6b;
+    padding: 20px;
+    font-family: 'Space Mono', monospace;
+    box-shadow: 5px 5px 7px #88888850;
+}
+
+h3{
+    font-size: 20px;
+}
+
+#translation p{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#translation h3{
+    color: #4598f7;
+    margin: 0;
+}
+
+#translation h3{
+    color: #4598f7;
+    margin-bottom: 10px;
+}
+
+#mainEmotions, #sensations, #emotionDo, #tendencies {
+    margin-bottom: 25px;
+}
+
+.progress {
+background-color: #d8d8d8;
+border-radius: 20px;
+position: relative;
+margin: 25px 10px;
+height: 25px;
+width: 300px;
+}
+
+.progress-done {
+    background: #ff61ab;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    transition: 1s ease 0.3s;
+}
